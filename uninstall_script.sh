@@ -1,4 +1,8 @@
 #!/bin/sh
-printerName="queue_name".example.com
-/usr/sbin/lpadmin -x $printerName
-rm -f /private/etc/cups/deployment/receipts/$printerName.plist
+
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki export PATH
+
+# Put stuff back before we changed stuff.
+
+
+
